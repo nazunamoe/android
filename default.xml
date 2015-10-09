@@ -8,7 +8,19 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-
+           
+  <remote  name="nazunamoe"
+           fetch="https://github.com/nazunamoe" />
+           
+  <remote  name="zzpianoman"         
+           fetch="https://github.com/zzpianoman" />
+           
+  <remote  name="justakan"
+           fetch="https://github.com/justakan" />
+           
+  <remote  name="ziyann"
+           fetch="https://github.com/Ziyann" />
+           
   <remote  name="mokee"
            fetch=".."
            review="review.mfunz.com" />
@@ -22,7 +34,23 @@
            revision="refs/heads/mkl-mr1"
            remote="mokee"
            sync-c="true"
-           sync-j="4" />
+           sync-j="16" />
+           
+#Source for Samsung Galaxy Nexus
+
+  <project path="device/samsung/maguro" remote="zzpianoman" name="android_device_samsung_maguro" revision="cm-12.1" groups="device" />
+  <project path="device/samsung/tuna" remote="zzpianoman" name="android_device_samsung_tuna" revision="cm-12.1" group="device" />
+  <project path="kernel/samsung/tuna" remote="ziyann" name="omap" revision="stable-6.0" />
+  <project path="vendor/samsung" remote="ziyann" name="proprietary_vendor_samsung" revision="cm-12.1" />
+  
+#Source for LG Optimus GK
+
+  <project path="device/lg/e980" remote="justakan" name="android_device_lge_e980" revision="cm-12.1-gk" group="device" />
+  <project path="kernel/lg/e980" remote="justakan" name="jolla-kernel_GK-GPRO_Gen3" revision="cm-12.1" />
+  <project path="vendor/lge/e980" remote="justakan" name="proprietary_vendor_e980" revision="master" />
+  
+#Source for LG G Pad v490 (unstable)
+  
 
   <project path="build" name="MoKee/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
