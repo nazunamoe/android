@@ -40,7 +40,7 @@
 
   <project path="device/samsung/maguro" remote="nazunamoe" name="android_device_samsung_maguro" revision="mk51.1" groups="device" />
   <project path="device/samsung/tuna" remote="nazunamoe" name="android_device_samsung_tuna" revision="mk51.1" group="device" />
-  <project path="kernel/samsung/tuna" remote="nazunamoe" name="omap" revision="stable-6.0" />
+  <project path="kernel/samsung/tuna" remote="nazunamoe" name="omap" revision="stable" />
   <project path="vendor/samsung" remote="nazunamoe" name="android_vendor_samsung" revision="cm-12.1" />
   
 #Source for LG Optimus GK
