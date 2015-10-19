@@ -12,6 +12,9 @@
   <remote  name="nazunamoe"
            fetch="https://github.com/nazunamoe" />
            
+  <remote  name="cyanogenmod"
+           fetch="https://github.com/cyanogenmod" />
+           
   <remote  name="zzpianoman"         
            fetch="https://github.com/zzpianoman" />
            
@@ -42,6 +45,7 @@
   <project path="device/samsung/tuna" remote="ziyann" name="android_device_samsung_tuna" revision="zmod-5.1" group="device" />
   <project path="kernel/samsung/tuna" remote="nazunamoe" name="omap" revision="stable" />
   <project path="vendor/samsung" remote="nazunamoe" name="android_vendor_samsung" revision="cm-12.1" />
+  <project path="device/samsung/omap4-common" remote="cyanogenmod" name="android_device_samsung_omap4-common" revision="cm-12.1" />
   
 #Source for LG Optimus GK
 
