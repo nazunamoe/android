@@ -38,8 +38,8 @@
            
 #Source for Samsung Galaxy Nexus
 
-  <project path="device/samsung/maguro" remote="nazunamoe" name="android_device_samsung_maguro" revision="mk51.1" groups="device" />
-  <project path="device/samsung/tuna" remote="nazunamoe" name="android_device_samsung_tuna" revision="mk51.1" group="device" />
+  <project path="device/samsung/maguro" remote="ziyann" name="android_device_samsung_maguro" revision="zmod-5.1" groups="device" />
+  <project path="device/samsung/tuna" remote="ziyann" name="android_device_samsung_tuna" revision="zmod-5.1" group="device" />
   <project path="kernel/samsung/tuna" remote="nazunamoe" name="omap" revision="stable" />
   <project path="vendor/samsung" remote="nazunamoe" name="android_vendor_samsung" revision="cm-12.1" />
   
