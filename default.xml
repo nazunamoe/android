@@ -47,12 +47,6 @@
   <project path="vendor/samsung" remote="zzpianoman" name="android_vendor_samsung" revision="cm-12.1" />
   <project path="device/samsung/omap4-common" remote="cyanogenmod" name="android_device_samsung_omap4-common" revision="cm-12.1" />
   
-#Source for LG Optimus GK
-
-  <project path="device/lg/e980" remote="justakan" name="android_device_lge_e980" revision="cm-12.1-gk" group="device" />
-  <project path="kernel/lg/e980" remote="justakan" name="jolla-kernel_GK-GPRO_Gen3" revision="cm-12.1" />
-  <project path="vendor/lge/e980" remote="justakan" name="proprietary_vendor_e980" revision="master" />
-  
 #Source for LG G Pad v490 (unstable)
   
 
