@@ -60,9 +60,9 @@
 #Source for LG G Pad v490 (unstable)
   
 #Source for LG Optimus GK (F220K)
-  <project path="kernel/lge/gproj" remote="nazunamoe" name="jolla-kernel_GK-GPRO_Gen3" remote="cm-12.1" />
-  <project path="device/lge/e980" remote="nazunamoe" name="android_device_lge_e980" remote="cm-12.1-gk" />
-  <project path="device/lge/gproj-common" remote="Mokee" name="android_device_lge_gproj-common" remote="mkl-mr1" />
+  <project path="kernel/lge/gproj" remote="nazunamoe" name="jolla-kernel_GK-GPRO_Gen3" revision="cm-12.1" />
+  <project path="device/lge/e980" remote="nazunamoe" name="android_device_lge_e980" revision="cm-12.1-gk" />
+  <project path="device/lge/gproj-common" remote="Mokee" name="android_device_lge_gproj-common" revision="mkl-mr1" />
   <project path="vendor/lge" remote="nazunamoe" name="proprietary_vendor_lge" revision="cm-12.1" />  
  
   <project path="build" name="MoKee/android_build" groups="pdk,tradefed" >
