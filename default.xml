@@ -49,9 +49,6 @@
   <project path="kernel/samsung/tuna" remote="MWisBest" name="android_kernel_samsung_tuna" revision="aosp-5.1.x" />
   <project path="vendor/samsung" remote="zzpianoman" name="android_vendor_samsung" revision="cm-12.1" />
   <project path="device/samsung/omap4-common" remote="cyanogenmod" name="android_device_samsung_omap4-common" revision="cm-12.1" />
-  <project path="hardware/ti/omap4" remote="MWisBest" name="android_hardware_ti_omap4" revision="aosp-5.1.x" />
-  <project path="hardware/ti/omap4xxx" remote="MWisBest" name="android_hardware_ti_omap4xxx" revision="aosp-5.1.x" />
-  <project path="hardware/ti/wlan" remote="MWisBest" name="android_hardware_ti_wlan" />
   
 #Source for LG G Pad v490 (unstable)
   
@@ -468,8 +465,11 @@
   <project path="hardware/ril" remote="third" name="ThirdProject/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="MoKee/android_hardware_ril" groups="pdk" revision="mkl-mr1-caf"/>
   <project path="hardware/samsung_slsi/exynos5" remote="third" name="ThirdProject/android_hardware_samsung_slsi_exynos5" />
+  <project path="hardware/ti/omap4" remote="third" name="ThirdProject/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
-  <project path="hardware/ti/wpan" remote="third" name="ThirdProject/android_hardware_ti_wpan" />
+  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
+  <project path="hardware/ti/omap4xxx" remote="third" name="ThirdProject/android_hardware_ti_omap4xxx" />
+  <project path="hardware/ti/wlan" remote="third" name="ThirdProject/android_hardware_ti_wlan" />
   <project path="libcore" remote="third" name="ThirdProject/android_libcore" />
   <project path="libnativehelper" remote="third" name="ThirdProject/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
