@@ -467,7 +467,6 @@
   <project path="hardware/samsung_slsi/exynos5" remote="third" name="ThirdProject/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap4" remote="third" name="ThirdProject/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
-  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/omap4xxx" remote="third" name="ThirdProject/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" remote="third" name="ThirdProject/android_hardware_ti_wlan" />
   <project path="libcore" remote="third" name="ThirdProject/android_libcore" />
