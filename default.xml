@@ -24,8 +24,8 @@
   <remote  name="ziyann"
            fetch="https://github.com/Ziyann" />
            
-  <remote  name="eMarco"
-           fetch="https://github.com/eMarco" />
+  <remote  name="MWisBest"
+           fetch="https://github.com/MWisBest" />
            
   <remote  name="mokee"
            fetch=".."
@@ -44,11 +44,14 @@
            
 #Source for Samsung Galaxy Nexus
 
-  <project path="device/samsung/maguro" remote="eMarco" name="device_samsung_maguro" revision="lp5.1" groups="device" />
-  <project path="device/samsung/tuna" remote="eMarco" name="device_samsung_tuna" revision="lp5.1" group="device" />
-  <project path="kernel/samsung/tuna" remote="ziyann" name="android_kernel_samsung_tuna" revision="stable" />
+  <project path="device/samsung/maguro" remote="MWisBest name="android_device_samsung_maguro" revision="aosp-5.1.x" groups="device" />
+  <project path="device/samsung/tuna" remote="MWisBest" name="android_device_samsung_tuna" revision="aosp-5.1.x" group="device" />
+  <project path="kernel/samsung/tuna" remote="MWisBest" name="android_kernel_samsung_tuna" revision="aosp-5.1.x" />
   <project path="vendor/samsung" remote="zzpianoman" name="android_vendor_samsung" revision="cm-12.1" />
   <project path="device/samsung/omap4-common" remote="cyanogenmod" name="android_device_samsung_omap4-common" revision="cm-12.1" />
+  <project path="hardware/ti/omap4" remote="MWisBest" name="android_hardware_ti_omap4" revision="aosp-5.1.x" />
+  <project path="hardware/ti/omap4xxx" remote="MWisBest" name="android_hardware_ti_omap4xxx" revision="aosp-5.1.x />
+
   
 #Source for LG G Pad v490 (unstable)
   
