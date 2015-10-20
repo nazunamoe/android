@@ -51,12 +51,11 @@
   <project path="device/samsung/omap4-common" remote="cyanogenmod" name="android_device_samsung_omap4-common" revision="cm-12.1" />
   <project path="hardware/ti/omap4" remote="MWisBest" name="android_hardware_ti_omap4" revision="aosp-5.1.x" />
   <project path="hardware/ti/omap4xxx" remote="MWisBest" name="android_hardware_ti_omap4xxx" revision="aosp-5.1.x />
-
   
 #Source for LG G Pad v490 (unstable)
   
 
-  <project path="build" name="MoKee/android_build" groups="pdk,tradefed" >
+  <project path="build" name="MoKee/android_build" groups="pdk,tradefed" />
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="build-script" dest="mk" />
   </project>
