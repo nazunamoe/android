@@ -55,7 +55,7 @@
 #Source for LG G Pad v490 (unstable)
   
 
-  <project path="build" name="MoKee/android_build" groups="pdk,tradefed" />
+  <project path="build" name="MoKee/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="build-script" dest="mk" />
   </project>
