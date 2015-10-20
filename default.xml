@@ -55,6 +55,7 @@
   <project path="kernel/samsung/tuna" remote="MWisBest" name="android_kernel_samsung_tuna" revision="aosp-5.1.x" />
   <project path="vendor/samsung" remote="zzpianoman" name="android_vendor_samsung" revision="cm-12.1" />
   <project path="device/samsung/omap4-common" remote="cyanogenmod" name="android_device_samsung_omap4-common" revision="cm-12.1" />
+  <project path="vendor/lge" remote="nazunamoe" name="proprietary_vendor_lge" revision="cm-12.1" />
   
 #Source for LG G Pad v490 (unstable)
   
