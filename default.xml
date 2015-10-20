@@ -44,8 +44,8 @@
            
 #Source for Samsung Galaxy Nexus
 
-  <project path="device/samsung/maguro" remote="eMarco" name="android_device_samsung_maguro" revision="cm-12.1" groups="device" />
-  <project path="device/samsung/tuna" remote="eMarco" name="android_device_samsung_tuna" revision="cm-12.1" group="device" />
+  <project path="device/samsung/maguro" remote="eMarco" name="android_device_samsung_maguro" revision="lp-5.1" groups="device" />
+  <project path="device/samsung/tuna" remote="eMarco" name="android_device_samsung_tuna" revision="lp-5.1" group="device" />
   <project path="kernel/samsung/tuna" remote="ziyann" name="android_kernel_samsung_tuna" revision="stable" />
   <project path="vendor/samsung" remote="zzpianoman" name="android_vendor_samsung" revision="cm-12.1" />
   <project path="device/samsung/omap4-common" remote="cyanogenmod" name="android_device_samsung_omap4-common" revision="cm-12.1" />
